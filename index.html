@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tasteful</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Waterfall"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Tasteful-logan" class="img-logo" />
+        <h1 class="header-title">Tasteful</h1>
+      </div>
+      <nav class="nav-menu">
+        <button class="button">Alla Recept</button>
+        <button class="button">Nyhetsbrev</button>
+        <button class="button">Veckomeny</button>
+        <button class="button">Kontakt</button>
+      </nav>
+      <div class="header-icons">
+        <button class="hamburgermenu" aria-label="UserIcon">
+          <i class="fas fa-user"></i>
+        </button>
+        <button class="hamburgermenu" aria-label="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="search-section">
+        <div class="wrap">
+          <form class="search" action="#" method="get">
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="Sök efter recept, ingredienser osv..."
+            />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="recept-section">
+        <img src="images/lax.png" alt="Sashimilax" class="recept-img" />
+        <div class="box">
+          <h2 class="recept-namn">Sashimilax med sallad</h2>
+          <audio control>
+            <source src="Sashimilax..mp3" type="audio/mpeg" />
+          </audio>
+          <div class="star-rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="ingredienser-box">
+          <h3 class="ingredienser">Ingredienser</h3>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

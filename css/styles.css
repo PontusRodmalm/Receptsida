@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html,
+body {
+  font-family: "Waterfall", sans-serif;
+  background-color: #f5f5dc;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background-image: linear-gradient(to right, #5c8e44, #1a2813);
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-logo {
+  width: 90px;
+  height: 80px;
+}
+
+.header-title {
+  color: white;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px black;
+  margin: 0;
+  font-weight: 100;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.hamburgermenu {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  gap: 10px;
+}
+
+.search-section {
+  position: relative;
+  min-height: 150px;
+}
+
+.wrap {
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #0e7e48;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm focus {
+  color: #9dbfaf;
+}
+
+.searchButton {
+  width: 50px;
+  border: 1px solid #1a2813;
+  background: linear-gradient(to right, #5c8e44, #1a2813);
+  color: white;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+.recept-section {
+  display: flex;
+  gap: 40px;
+  align-items: start;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.recept-img {
+  width: 627px;
+  height: auto;
+}
+
+.box {
+  background-color: white;
+  border-radius: 10px;
+  width: 627px;
+  height: 627px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.recept-namn {
+  font-size: 1.5rem;
+  margin: 0;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+audio {
+  width: 100%;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #5c8e44;
+  font-size: 1rem;
+  margin-top: ;
+}
