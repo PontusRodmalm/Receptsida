@@ -7,12 +7,10 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Waterfall"
-    />
+      href="https://fonts.googleapis.com/css?family=Waterfall" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   </head>
   <body>
     <header>
@@ -35,6 +33,7 @@
         </button>
       </div>
     </header>
+
     <main>
       <section class="search-section">
         <div class="wrap">
@@ -42,33 +41,113 @@
             <input
               type="text"
               class="searchTerm"
-              placeholder="Sök efter recept, ingredienser osv..."
-            />
+              placeholder="Sök efter recept, ingredienser osv..." />
             <button type="submit" class="searchButton">
               <i class="fa fa-search"></i>
             </button>
           </form>
         </div>
       </section>
+
       <section class="recept-section">
-        <img src="images/lax.png" alt="Sashimilax" class="recept-img" />
-        <div class="box">
-          <h2 class="recept-namn">Sashimilax med sallad</h2>
-          <audio control>
-            <source src="Sashimilax..mp3" type="audio/mpeg" />
-          </audio>
-          <div class="star-rating">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+        <div class="left-column">
+          <img src="images/lax.png" alt="Sashimilax" class="recept-img" />
+
+          <div class="icons">
+            <button class="icon-btn" aria-label="Dela recept">
+              <i class="far fa-share-square"></i>
+            </button>
+            <button class="icon-btn" aria-label="Spara recept">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="icon-btn" aria-label="Skriv ut">
+              <i class="fas fa-print"></i>
+            </button>
+            <button class="icon-btn" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </button>
+          </div>
+
+          <div class="ingredienser-box">
+            <h3>Ingredienser (9)</h3>
+            <hr>
+            <ul>
+              <li>
+                300 g laxfilé, Finest, Salma eller annan lax av högkvalitet
+                (odlad)
+              </li>
+              <li>2 msk skalade sesamfrön</li>
+              <li>50 g småbladig salladsmix</li>
+              <li>1/2 röd chilli, strimlad</li>
+              <li>1/2 kruka koriander</li>
+            </ul>
+
+            <h3>Dressing</h3>
+            <hr>
+            <ul>
+              <li>1/2 dl japansk soja</li>
+              <li>2 tsk finriven färsk ingerfära</li>
+              <li>1 msk ljus sirap</li>
+              <li>1 tsk ättiksprit</li>
+            </ul>
           </div>
         </div>
-        <div class="ingredienser-box">
-          <h3 class="ingredienser">Ingredienser</h3>
+
+        <div class="right-column">
+          <div class="box big-box">
+            <h2>Sashimilax med sallad</h2> 
+
+            <div class="star-rating">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+            </div>
+            
+            <p>
+              Sojadressingen får sin syra från ättika, krydda från ingerfära och
+              sötma från sirap. Den ringlas över mjäll lax och krispig sallad.
+              Rostade sesamfrön och färsk koriander fullbordar rätten.
+            </p>
+            <p>Tillagningstid: 10 min | 4 portioner</p>
+          <h4>Gör såhär</h4>
+          <hr>
+          <p>1. Blanda alla ingredienser till dressingen. Rosta sesamfröna gyllene i en torr stekpanna.</p>
+          <p>2. Skär laxen i centimeterstora kuber. Fördela salladen i små skålar. Toppa med lax, chili och koriander. Häll över dressing och strö på sesamfrön.</p>
+          <h4>Servering</h4>
+          <p>Toppa eventuellt med krispiga sojabönor.</p>
+          <hr>
+
+          <h3>Viner som passar till</h3>
+          <ul>
+            <li>Muscadet Sèvre et Mainesur lie, 2023, 97:-</li>
+            <li>Alvarinho Contacto, 2023, 145:-</li>
+            <li>Pratsch Grüner Veltliner, 2023, 109:-</li>
+            <li>Ruppertsberger Hofstück Riesling, 2023, 89:-</li>
+            <li>Kloster Eberbach Riesling Kabinett, 2023, 109:-</li>
+          </ul>
         </div>
+        
+        <div class="box small-box">
+          <h3>Kommentarer</h3>
+          <h4>Moses</h4>
+          <p>Utsökt!</p>
+          <hr>
+          <h4>Pontus</h4>
+          <p>Detta recept på sashimilax med sallad utstrålar en perfekt harmoni mellan havets rena smaker och säsongens fräschör.</p>
+          <hr>
+          <h4>Hannes</h4>
+          <p>Sashimilax med sallad känns ur balans, och smakerna möts inte på ett övertygande sätt.</p>
+          <hr>
+          <h4>Victor</h4>
+          <p>Sashimilax med sallad är en utsökt fusion där den lena laxen möter en fräsch och krispig sallad, och tillsammans skapar de en kulinarisk symfoni.</p>
+          </div>
       </section>
     </main>
+    <footer>
+      <p>2025 Tasteful.</p>
+      <p>Skapad av Pontus Rodmalm<p></p>
+    </footer>
   </body>
 </html>
