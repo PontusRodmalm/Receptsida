@@ -1,23 +1,25 @@
 <!DOCTYPE html>
+<!--Persona Mormor Margrit-->
+<!--Skapad av Pontus Rodmalm-->
 <html lang="sv">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Tasteful</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Waterfall" />
+      href="https://fonts.googleapis.com/css?family=Waterfall">
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="images/logo.png" alt="Tasteful-logan" class="img-logo" />
+        <img src="images/logo.png" alt="Tasteful-logo" class="img-logo">
         <h1 class="header-title">Tasteful</h1>
-      </div>
+      </div> 
       <nav class="nav-menu">
         <button class="button">Alla Recept</button>
         <button class="button">Nyhetsbrev</button>
@@ -25,7 +27,7 @@
         <button class="button">Kontakt</button>
       </nav>
       <div class="header-icons">
-        <button class="hamburgermenu" aria-label="UserIcon">
+        <button class="hamburgermenu" aria-label="user-icon">
           <i class="fas fa-user"></i>
         </button>
         <button class="hamburgermenu" aria-label="hamburger">
@@ -33,7 +35,6 @@
         </button>
       </div>
     </header>
-
     <main>
       <section class="search-section">
         <div class="wrap">
@@ -41,18 +42,16 @@
             <input
               type="text"
               class="searchTerm"
-              placeholder="Sök efter recept, ingredienser osv..." />
+              placeholder="Sök efter recept, ingredienser osv...">
             <button type="submit" class="searchButton">
               <i class="fa fa-search"></i>
             </button>
           </form>
         </div>
       </section>
-
       <section class="recept-section">
         <div class="left-column">
-          <img src="images/lax.png" alt="Sashimilax" class="recept-img" />
-
+          <img src="images/lax.png" alt="Sashimilax" class="recept-img">
           <div class="icons">
             <button class="icon-btn" aria-label="Dela recept">
               <i class="far fa-share-square"></i>
@@ -67,9 +66,13 @@
               <i class="fab fa-instagram"></i>
             </button>
           </div>
-
           <div class="ingredienser-box">
+            <div class="header-audio">
             <h3>Ingredienser (9)</h3>
+              <audio controls>
+              <source src="Sashimilax.mp3" type="audio/mpeg">
+            </audio>
+          </div>
             <hr>
             <ul>
               <li>
@@ -81,7 +84,6 @@
               <li>1/2 röd chilli, strimlad</li>
               <li>1/2 kruka koriander</li>
             </ul>
-
             <h3>Dressing</h3>
             <hr>
             <ul>
@@ -92,33 +94,38 @@
             </ul>
           </div>
         </div>
-
         <div class="right-column">
           <div class="box big-box">
-            <h2>Sashimilax med sallad</h2> 
-
+            <div class="header-audio">
+            <h2>Sashimilax med sallad</h2>
+            <audio controls>
+              <source src="Sashimilax.mp3" type="audio/mpeg">
+            </audio>
+          </div>
             <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star-half-alt" aria-hidden="true"></i>
-            </div>
-            
+              <p><ins>Sätt betyg!</ins></p>
+            </div>          
             <p>
               Sojadressingen får sin syra från ättika, krydda från ingerfära och
               sötma från sirap. Den ringlas över mjäll lax och krispig sallad.
               Rostade sesamfrön och färsk koriander fullbordar rätten.
             </p>
             <p>Tillagningstid: 10 min | 4 portioner</p>
+            <p>Svårighetsgrad: Lätt</p>
           <h4>Gör såhär</h4>
           <hr>
-          <p>1. Blanda alla ingredienser till dressingen. Rosta sesamfröna gyllene i en torr stekpanna.</p>
-          <p>2. Skär laxen i centimeterstora kuber. Fördela salladen i små skålar. Toppa med lax, chili och koriander. Häll över dressing och strö på sesamfrön.</p>
+          <ol>
+          <li>Blanda alla ingredienser till dressingen. Rosta sesamfröna gyllene i en torr stekpanna.</li>
+          <li>Skär laxen i centimeterstora kuber. Fördela salladen i små skålar. Toppa med lax, chili och koriander. Häll över dressing och strö på sesamfrön.</li>
+          </ol>
           <h4>Servering</h4>
           <p>Toppa eventuellt med krispiga sojabönor.</p>
           <hr>
-
           <h3>Viner som passar till</h3>
           <ul>
             <li>Muscadet Sèvre et Mainesur lie, 2023, 97:-</li>
@@ -127,10 +134,12 @@
             <li>Ruppertsberger Hofstück Riesling, 2023, 89:-</li>
             <li>Kloster Eberbach Riesling Kabinett, 2023, 109:-</li>
           </ul>
-        </div>
-        
+        </div>       
         <div class="box small-box">
-          <h3>Kommentarer</h3>
+          <div class="header-comment">
+          <h3><ins>Kommentarer</ins></h3>
+          <button class="comment-btn">Kommentera</button>
+          </div>
           <h4>Moses</h4>
           <p>Utsökt!</p>
           <hr>
@@ -138,7 +147,7 @@
           <p>Detta recept på sashimilax med sallad utstrålar en perfekt harmoni mellan havets rena smaker och säsongens fräschör.</p>
           <hr>
           <h4>Hannes</h4>
-          <p>Sashimilax med sallad känns ur balans, och smakerna möts inte på ett övertygande sätt.</p>
+          <p>Sashimilax med sallad känns ur balans, och smakerna möts inte på ett övertygande sätt.</p>
           <hr>
           <h4>Victor</h4>
           <p>Sashimilax med sallad är en utsökt fusion där den lena laxen möter en fräsch och krispig sallad, och tillsammans skapar de en kulinarisk symfoni.</p>
@@ -147,7 +156,7 @@
     </main>
     <footer>
       <p>2025 Tasteful.</p>
-      <p>Skapad av Pontus Rodmalm<p></p>
+      <p>Skapad av Pontus Rodmalm</p>
     </footer>
   </body>
 </html>
